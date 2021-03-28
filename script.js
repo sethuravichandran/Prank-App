@@ -20,6 +20,7 @@ function updateDisplay(){
     counterDisplayElem.innerHTML = count;
       if (count == 5)
         {
+          vid.style.display = "block";
           vid.play();
         }
    };
