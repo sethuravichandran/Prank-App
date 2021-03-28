@@ -2,6 +2,7 @@ let counterDisplayElem = document.querySelector('.counter-display');
 let counterMinusElem = document.querySelector('.counter-minus');
 let counterPlusElem = document.querySelector('.counter-plus');
 let count = 0;
+var cc = document.getElementById ("cc")
 var vid = document.getElementById("myVideo"); 
 
 updateDisplay();
@@ -21,6 +22,7 @@ function updateDisplay(){
       if (count == 5)
         {
           vid.style.display = "block";
+          cc.style.display = "none";
           vid.play();
         }
    };
