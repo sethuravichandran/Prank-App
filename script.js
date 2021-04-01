@@ -2,7 +2,7 @@
 let gridSize=60;
 const speedLevels=5;
 const speedChanger = 1;
-let speedStart = 60;
+let speedStart = 80;
 var gameSpeed = speedStart;
 let speedLimit = 60;
 var gameGrid = document.querySelector('.game-container');
